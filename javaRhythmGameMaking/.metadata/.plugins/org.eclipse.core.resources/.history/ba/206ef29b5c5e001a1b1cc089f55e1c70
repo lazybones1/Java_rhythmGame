@@ -1,0 +1,10 @@
+package dynamic_beat_1;
+import javax.swing.JFrame;
+
+public class DynamicBeat extends JFrame{
+	
+	public DynamicBeat() {
+		settitle("Dynamic Beat");
+	}
+	
+}
