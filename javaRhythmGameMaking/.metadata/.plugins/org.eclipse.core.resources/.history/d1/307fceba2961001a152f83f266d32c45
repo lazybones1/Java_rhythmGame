@@ -1,0 +1,12 @@
+package dynamic_beat_11;
+
+public class Game extends Thread {
+
+	public void screenDraw(Graphics2D g) {
+		
+	}
+	@Override
+	public void run() {
+		
+	}
+}

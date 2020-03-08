@@ -1,0 +1,22 @@
+package dynamic_beat_13;
+
+import java.awt.Image;
+
+public class Note extends Thread {
+	
+	private Image noteBacicImage = new Image(Main.class.getResource("../images/noteBasic.png")).getImage();
+	private int x, y;
+	private String noteType;
+	
+	public Note(int x, int y, String notyType) {
+		this.x = x;
+		this.y = y;
+		this.noteType = noteType;
+	}
+	
+	
+	@Override
+	public void run() {
+		
+	}
+}
